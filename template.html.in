@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <title>%$%TITLE%$%</title>
+    <style type="text/css">
+      body {
+        font-family : 'Sorts Mill Goudy', serif;
+      }
+
+      h1.head {
+        font-size : 32pt;
+      }
+
+      h1, h2, h3, h4, h5, h6, h7 { font-weight : normal; padding: 0 5pt 0 5pt; }
+
+      h1 {
+        text-align : center;
+        margin : 0;
+        font-weight : normal;
+      }
+
+      .section {
+        border-bottom : dotted 1px #cfcfcf;
+      }
+
+      a {
+        text-decoration : none;
+      }
+      
+      .subtle {
+        font-style : italic;
+        color : #bbb;
+      }
+
+      li {
+        list-style-type : square;
+      }
+
+      li li {
+        list-style-type : circle;
+        font-family : 'Quattrocento Sans', helvetica, sans-serif;
+        font-size : 0.8em;
+        line-height : 1.5em;
+      }
+
+      li > p {
+        margin-bottom : 0;
+      }
+      
+      ul#nav {
+        margin-top: 0;
+        text-align : center;
+        border : 1px dotted #bbb;
+        border-left : 0;
+        border-right : 0;
+        border-top : 0;
+      }
+      
+      #nav li {
+        display : inline;
+        padding-right : 50pt;
+      }
+
+      #nav a:link, #nav a:visited, h1 a:link, h1 a:visited {
+        color : #000;
+      }
+
+      #nav a:hover, #nav a:active, h1 a:hover, h1 a:active {
+        color : #69c;
+      }
+
+      div#content {
+        max-width : 800px;
+        margin : 0 auto 0 auto;
+        padding-left : 20pt;
+        padding-right : 20pt;
+      }
+
+      a {
+        text-decoration:none;
+        color:#6699cc;
+      }
+
+      a:hover {
+        color:#424242;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="head"><a href="index.html">edwin flores.</a> <emph class="subtle">some coder guy.</emph></h1>
+    <ul id="nav">
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="resume.html">résumé</a></li>
+      <li><a href="https://github.com/edf825">git</a></li>
+      <li><a href="http://blog.flores.geek.nz/">blog</a></li>
+    </ul>
+    <div id="content">%$%BODY%$%</div>
+  </body>
+</html>
