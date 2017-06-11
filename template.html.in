@@ -21,6 +21,11 @@
         font-weight : normal;
       }
 
+      h1, h2 {
+        letter-spacing: -0.05em;
+        font-variant-ligatures: common-ligatures;
+      }
+
       .section {
         border-bottom : dotted 1px #cfcfcf;
       }
